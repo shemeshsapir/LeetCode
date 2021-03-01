@@ -50,6 +50,13 @@ class Solution {
 		 }
 		 
 		 return str.toString();
-        
     }
+	
+	public static void main (String[] args)
+	 {
+		 String str = "a-bC-dEf-ghIj";
+		 Solution sol =new Solution();
+		 
+		 System.out.println(sol.reverseOnlyLetters(str));
+	 }
 }
